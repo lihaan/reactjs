@@ -12,3 +12,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.equation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sum {
+    min-width: 50px;
+}

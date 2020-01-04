@@ -18,7 +18,7 @@ class Comic extends React.Component {
         } else {
           return (
             <div>
-                <img src={this.state.img} />
+                <img src={this.state.img} alt='Latest xkcd comic' />
                 <p>Loading from proxy CORS server</p>
             </div>
           );
@@ -49,5 +49,3 @@ class Comic extends React.Component {
 }
 
 export default Comic;
-
-//TODO: Make loading spinner
